@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int a, b, c;
+    printf("Nhap vao ba so a,b,c: ");
+    scanf("%d%d%d", &a, &b, &c);
+    int sum1 = a + b;
+    int diff1 = a - b;
+    int sum2 = b + c;
+    int diff2 = b - c;
+    int sum3 = a + c;
+    int diff3 = a - c;
+    printf("tong va hieu cua cac cap so la:\n");
+    printf("tong 1: %d,hieu 1: %d\n", sum1, diff1);
+    printf("tong 2: %d,hieu 2:%d\n", sum2, diff2);
+    printf("tong 3:%d,hieu 3:%d\n", sum 3, diff 3);
+    return 0;
+}

@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int a, b, c;
+    printf("nhap vao ba so a,b,c: ");
+    scanf("%d%d%d", &a, &b, &c);
+    int product1 = a * b;
+    int quotient1 = b / a;
+    int product2 = b * c;
+    int quotient2 = b / c;
+    int product3 = a * c;
+    int quotient = c / b;
+    printf("tich va thuong cua cac cap so la: ");
+    printf("tich1:%d,thuong1:%d khong chia het cho %d\n", product1, quotient1, b, a);
+    printf("tich2:%d,thuong2:%d", product2, quotient2);
+    printf("tich3:%d,thương3:%d", product3, quotient3);
+    return 0;
+}
